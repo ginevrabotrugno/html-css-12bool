@@ -5,3 +5,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --blue: #006cfa;
+    --white: #ffffff;
+    --green: #00e165;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.box {
+    background-color: var(--blue) ;
+    height: 50px;
+    border: 1px solid var(--white);
+    color: var(--white);
+    position: relative;
+}
+
+.box span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered {
+    width: 95%;
+    margin: 10px auto;
+}
+
+.grn {
+    background-color: var(--green);
+    height: 30px;
+    border: 1px solid var(--blue);
+}
